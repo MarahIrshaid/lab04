@@ -1,4 +1,5 @@
 'use strict';
+alert("Hello! I am an alert box!!");
 
 var iDNumber = prompt('please enter your ID number');
 var Name = prompt('please enter your full name');
