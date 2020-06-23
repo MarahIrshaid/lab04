@@ -1,6 +1,4 @@
 'use strict';
-
-
 var iDNumber = prompt('please enter your ID number');
 var Name = prompt('please enter your full name');
 var gender = prompt('please enter your gender');
