@@ -78,3 +78,6 @@ a {
  .container {
     position: relative; 
  }
+ #block {
+     display: block;
+ }

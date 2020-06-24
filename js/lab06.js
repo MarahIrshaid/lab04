@@ -22,9 +22,31 @@ console.log('new value greeting is ',greeting);
 // if(condition){
 // }
 document.write('<h3>' + greeting + '</h3>');
-return greeting ;
+return greeting ;git
 }
 greet();
+
+
+function userOrder() {
+  var userWant = prompt('whats the name of the drug you want ?');
+ 
+  while (userWant !== 'panadol' && userWant !== 'revanin') {
+    
+    userWant = prompt('whats the name of the drug you want ?');
+  }
+  var orderNumbers = prompt('how many items do you want to order?');
+ 
+  for (var i = 0; i < orderNumbers; i++) {
+    if (userWant === 'panadol') {
+      //code
+      document.write('<img id="block" src="https://i-cf3.gskstatic.com/content/dam/cf-consumer-healthcare/panadol/en_ae/Products/Panadol%20Advance%20455x455.jpg?auto=format">');
+    } else if (userWant === 'revanin') {
+      //code
+      document.write('<p><img src="https://www.almrsal.com/wp-content/uploads/2017/10/%D8%B1%D9%8A%D9%81%D8%A7%D9%86%D9%8A%D9%86-Revanin-768x768.jpg"></p>');
+    }
+  }
+}
+userOrder();
 
 
 
