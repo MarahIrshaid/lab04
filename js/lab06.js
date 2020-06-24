@@ -4,6 +4,8 @@ var Name = prompt('please enter your full name');
 var gender = prompt('please enter your gender');
 var age = prompt('please enter your age ');//
 
+function greet(){
+
 
 var greeting;//undefined
 console.log('greeting is ',greeting);
@@ -20,3 +22,9 @@ console.log('new value greeting is ',greeting);
 // if(condition){
 // }
 document.write('<h3>' + greeting + '</h3>');
+return greeting ;
+}
+greet();
+
+
+
